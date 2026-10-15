@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="776.0" prefWidth="1326.0" style="-fx-background-color: FFE6CB;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="deshboard.FXMLDocumentController">
+   <children>
+      <Circle layoutX="745.0" layoutY="187.0" radius="15.0" stroke="BLACK" strokeMiterLimit="5.0" strokeType="INSIDE" />
+      <VBox alignment="TOP_CENTER" prefHeight="776.0" prefWidth="300.0" spacing="30.0" style="-fx-background-color: E57F48;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Snack%20Spot%20Bakery%20Logo.png" />
+               </image>
+            </ImageView>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Dashboard">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Products">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="orders">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="payments">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Customers">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Feedback">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" text="Reports">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Logout">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+         <opaqueInsets>
+            <Insets bottom="30.0" />
+         </opaqueInsets>
+      </VBox>
+      <TextField layoutX="308.0" layoutY="14.0" prefWidth="350.0" promptText="          Search Product,order,customer...">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Text layoutX="1267.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="328.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="325.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcom back,Admin ...">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eb9d58" height="100.0" layoutX="356.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Text layoutX="374.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="28">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="382.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total products">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Circle layoutX="516.0" layoutY="187.0" radius="15.0" stroke="BLACK" strokeMiterLimit="5.0" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eb9d58" height="100.0" layoutX="586.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eb9d58" height="100.0" layoutX="820.0" layoutY="158.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eb9d58" height="100.0" layoutX="1060.0" layoutY="156.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Circle layoutX="747.0" layoutY="183.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle layoutX="981.0" layoutY="182.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle layoutX="1229.0" layoutY="182.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text layoutX="613.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="45">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="608.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total orders">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="840.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$12,450">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="841.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total  sales">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="1083.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="32">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="1085.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Customers">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d37d52" height="210.0" layoutX="339.0" layoutY="311.0" stroke="BLACK" strokeType="INSIDE" width="550.0" />
+      <Text layoutX="349.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sales overview">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="366.0" layoutY="408.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="90.0" layoutX="433.0" layoutY="378.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="110.0" layoutX="504.0" layoutY="361.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="150.0" layoutX="571.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="130.0" layoutX="642.0" layoutY="340.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="100.0" layoutX="711.0" layoutY="369.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="70.0" layoutX="788.0" layoutY="397.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Text layoutX="377.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mon">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="446.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tus">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="510.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wed">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="580.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thu">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="655.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fri">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="723.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sat">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="798.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sun">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d37d52" height="200.0" layoutX="335.0" layoutY="554.0" stroke="BLACK" strokeType="INSIDE" width="550.0" />
+      <Text layoutX="345.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recent orders">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="383.0" layoutY="635.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order ID                   Customer                   Amount">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="393.0" layoutY="668.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR1001                        Priya                       $320">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="394.0" layoutY="698.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR1002                       Ravi                          $450">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="394.0" layoutY="732.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR1003                   Meena                         $210">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d37d52" height="300.0" layoutX="938.0" layoutY="289.0" stroke="BLACK" strokeType="INSIDE" width="350.0" />
+      <Text layoutX="960.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total selling product">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="993.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Others          11%">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="992.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Madu vada       15% ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="990.0" layoutY="526.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Butter cookies      18%">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="993.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Veg puff       24%" wrappingWidth="114.0087890625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="988.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chocolote cake    32%">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d37d52" height="145.0" layoutX="917.0" layoutY="614.0" stroke="BLACK" strokeType="INSIDE" width="390.0" />
+      <Text layoutX="949.0" layoutY="643.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Low Stock Alert">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="950.0" layoutY="687.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bread                                       5 left">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="948.0" layoutY="718.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cake                                         3 Left">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="946.0" layoutY="746.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cookies                                    8 Left">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
